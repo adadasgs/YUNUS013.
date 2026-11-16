@@ -1,0 +1,19 @@
+name: YUNUS013
+options:
+  bundleIdPrefix: com.yunus013
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  YUNUS013:
+    type: application
+    platform: iOS
+    sources:
+      - path: YUNUS013
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yunus013.panel
+        PRODUCT_NAME: YUNUS013
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_CFBundleDisplayName: YUNUS013
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
